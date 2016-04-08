@@ -34,6 +34,15 @@ var rclick = function() {
     }, false); // click event
   }
 }(); //anonymous closure
+var $, fill;
+
+$ = require('jquery');
+
+(fill = function(item) {
+  return $('.tagline').append("" + item);
+})('The most creative minds in Art');
+
+fill;
 
 var pixgrid = function() {
     function centerImage(theImage) {
