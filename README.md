@@ -1,3 +1,3 @@
 # Workflows Course
 
-This project is an axample of workflow managment.
+This project is an example of workflow managment.

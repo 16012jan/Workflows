@@ -1,11 +1,14 @@
 {
   "name": "workflows",
   "version": "1.0.0",
-  "description": "(A project to showcase workflows)",
-  },
+  "description": "A project to showcase workflows",
   "repository": {
     "type": "git",
     "url": "?.git"
   },
-  "author": "IgorTo"
+  "author": "IgorTo",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.7"
+  }
 }
